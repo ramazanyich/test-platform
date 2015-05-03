@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/language-test-dev',
+	db: process.env.MONGOLAB_URI || 'mongodb://localhost/language-test-dev',
 	app: {
 		title: 'Language Test - Development Environment'
 	},
