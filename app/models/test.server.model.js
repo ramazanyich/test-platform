@@ -24,6 +24,15 @@ var TestSchema = new Schema({
 		   isCorrect: Boolean
 		}			
 	],
+	status:  {
+		type: String,
+		default: '',
+		trim: true,
+		required: 'Status cannot be blank'
+	},
+	score: {
+		type: Number
+	},
 	user: {
 		type: Schema.ObjectId,
 		ref: 'User'
