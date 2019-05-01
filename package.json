@@ -4,8 +4,8 @@
 	"version": "0.0.1",
 	"author": "Ramil Israfilov",
 	"engines": {
-		"node": "0.10.x",
-		"npm": "6.9.x"
+		"node": "10.15.x",
+		"npm": "6.4.x"
 	},
 	"scripts": {
 		"start": "grunt",
